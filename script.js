@@ -9,7 +9,7 @@ elems.forEach(function(elem){
 
     var animating = false;
 
-    document.querySelector("#main").addEventListener("click",function(){
+    document.querySelector("#page1").addEventListener("click",function(){
         if(!animating){
             animating = true;
             gsap.to(h1s[index],{
