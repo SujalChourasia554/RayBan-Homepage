@@ -28,6 +28,7 @@ elems.forEach(function(elem){
                 top: "-=101%",
                 ease: Expo.easeInOut,
                 duration: 1
+                
             });
         }
     
